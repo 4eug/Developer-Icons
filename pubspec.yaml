@@ -2,7 +2,7 @@ name: developer_icons
 description: A new Flutter package project.
 version: 0.0.1
 author:
-homepage:
+homepage: https://github.com/4eug/Developer-Icons
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -21,6 +21,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+    - family: DeveloperIcons
+      fonts:
+        - asset: fonts/DeveloperIcons.ttf
 
   # To add assets to your package, add an assets section, like this:
   # assets:
